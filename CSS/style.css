@@ -3,7 +3,7 @@
     background-color: lightgrey;
     width: 75px;
     border-radius: 50%;
-   background-image: url(image\logo.jpeg);
+    background-image: url(image/logo.jpeg);
     background-size: cover;
 }
 
@@ -11,4 +11,23 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    background-color: rgb(96, 149, 235);
+    padding: 10px 20px;
+    border-radius: 9999px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar:hover{
+    background-color: rgb(72, 183, 235);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
 }
