@@ -32,7 +32,7 @@
     <main>
         <!--home section-->
         <section id="home" class="min-h-screen flex flex-col justify-center items-center">
-            <h1 class="text-[30px] font-bold">Welcome to My Portfolio</h1>
+            <h1 class="text-[30px] font-bold">Welcome <span id="userName"></span> to My Portfolio</h1>
             <p>This is the home section of my portfolio website.</p>
         </section>
 
@@ -53,8 +53,22 @@
         <hr>
         <!--contact section-->
         <section id="contact" class="min-h-screen flex flex-col justify-center items-center">
-            <h2 class="text-[30px] font-bold">Contact</h2>
-            <p>This section provides my contact information.</p>
+            <h2 class="text-[30px] font-bold">Message Us</h2>
+            <form>
+                <div class="mb-4">
+                    <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
+                    <input type="text" id="name" name="name" class="mt-1 p-2 border border-gray-300 rounded-md w-full">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-sm font-medium text-gray-700">Email:</label>
+                    <input type="email" id="email" name="email" class="mt-1 p-2 border border-gray-300 rounded-md w-full">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-sm font-medium text-gray-700">Message:</label>
+                    <textarea id="message" name="message" rows="4" class="mt-1 p-2 border border-gray-300 rounded-md w-full"></textarea>
+                </div>
+                <button type="submit" onclick="validateForm()" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600">Send</button>
+            </form>
         </section>
     </main>
     <!--Footer Content-->
@@ -62,6 +76,6 @@
         <p class="text-center p-[20px] bg-gray-200"> &copy; 2025 Aditya Portfolio. All rights reserved. </p>
     </footer>
     <!--JS eksternal-->
-    <script src="JS\script.js"></script>
+    <script src="JavaScript\script.js"></script>
 </body>
 </html>
