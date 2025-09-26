@@ -4,49 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Portofolio </title>
-
+    <!--CSS eksternal-->
     <link rel="stylesheet" href="CSS\style.css">
+    <!--Tailwind CSS CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
-    <header>
+<hr>
+    <!--Header Content-->
+    <header class="header">
+        <!--logo-->
+        <div class="logo">
+        </div>
         <nav>
-            <div class="logo">
-                <h4>Portofolio</h4>
-            </div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+            <ul class= "flex h-[100px] items-center gap-[2px]">
+                <li><a class="border p-[8px] rounded" href="#home">Home</a></li>
+                <li><a class="border p-[8px] rounded" href="#profile">Profile</a></li>
+                <li><a class="border p-[8px] rounded" href="#portofolio">Portofolio</a></li>
+                <li><a class="border p-[8px] rounded" href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="home">
-        <h1>Welcome to My Portfolio</h1>
-        <p>This is a brief introduction about myself and my work.</p>
-    </section>
+    <hr>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Here you can include information about your background, skills, and experiences.</p>
-    </section>
+    <!--Main Content-->
+    <main>
+        <!--home section-->
+        <section id="home" class="min-h-screen flex flex-col justify-center items-center">
+            <h1 class="text-[30px] font-bold">Welcome to My Portfolio</h1>
+            <p>This is the home section of my portfolio website.</p>
+        </section>
 
-    <section id="services">
-        <h2>My Services</h2>
-        <p>Describe the services you offer, such as web development, graphic design, etc.</p>
-    </section>
+        <hr>
+        <!--profile section-->
+        <section id="profile" class="min-h-screen flex flex-col justify-center items-center">
+            <h2 class="text-[30px] font-bold">Profile</h2>
+            <p>This section contains information about me.</p>
+        </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <p>If you'd like to get in touch, please reach out via email or social media.</p>
-    </section>
+        <hr>
+        <!--portofolio section-->
+        <section id="portofolio" class="min-h-screen flex flex-col justify-center items-center">
+            <h2 class="text-[30px] font-bold">Portofolio</h2>
+            <p>This section showcases my work and projects.</p>
+        </section>
 
+        <hr>
+        <!--contact section-->
+        <section id="contact" class="min-h-screen flex flex-col justify-center items-center">
+            <h2 class="text-[30px] font-bold">Contact</h2>
+            <p>This section provides my contact information.</p>
+        </section>
+    </main>
+    <!--Footer Content-->
     <footer>
         <p>&copy; 2024 My Portfolio. All rights reserved.</p>
     </footer>
-
+    <!--JS eksternal-->
     <script src="JS\script.js"></script>
 </body>
 </html>

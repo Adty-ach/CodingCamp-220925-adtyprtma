@@ -1,0 +1,14 @@
+.logo{
+    height: 75px;
+    background-color: lightgrey;
+    width: 75px;
+    border-radius: 50%;
+    background-image: url(https://anonymous-olive-zzdd68yl39.edgeone.app/1758878432353.jpg);
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
