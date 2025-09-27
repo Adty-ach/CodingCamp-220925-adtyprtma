@@ -28,3 +28,14 @@ console.log(name, email, message);
     alert("Thank you for your message, " + name + "!");
     return true;
 }
+
+window.onscroll = function() {
+    const header = document.querySelector("header");
+    const fixednav = header.offsetTop;
+
+    if (window.pageYOffset > fixednav) {
+        header.classList.add("navbar-fixed");
+    } else {
+        header.classList.remove("navbar-fixed");
+    }       
+};

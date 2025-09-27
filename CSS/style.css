@@ -1,7 +1,7 @@
 .logo{
-    height: 75px;
+    height: 55px;
     background-color: lightgrey;
-    width: 75px;
+    width: 55px;
     border-radius: 50%;
     background-image: url(image/logo.jpeg);
     background-size: cover;
@@ -17,8 +17,8 @@
     display: flex;
     gap: 20px;
     align-items: center;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 400;
+    font-size: 10px;
     background-color: rgb(96, 149, 235);
     padding: 10px 20px;
     border-radius: 9999px;
@@ -29,5 +29,16 @@
 
 .navbar:hover{
     background-color: rgb(72, 183, 235);
+    box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-fixed{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: white;
+    opacity: 90%;
     box-shadow: 0 2px 7px rgba(0, 0, 0, 0.3);
 }

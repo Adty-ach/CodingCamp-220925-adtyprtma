@@ -12,11 +12,11 @@
 
 <hr>
     <!--Header Content-->
-    <header class="header">
+    <header class="bg-transparent absolute top-0 left-0 w-full flex justify-between items-center z-10  px-4">
         <!--logo-->
         <div class="logo"></div>
         <nav>
-             <ul class= "flex h-[100px] items-center gap-[2px]">
+             <ul class= "flex h-[90px] items-center gap-[2px]">
                  <li><a class="navbar" href="#home">Home</a></li>
                  <li><a class="navbar" href="#about">About</a></li>
                  <li><a class="navbar" href="#portofolio">Portofolio</a></li>
@@ -26,6 +26,7 @@
     </header>
 
     <hr>
+
 
     <!--Main Content-->
     <main>
@@ -44,14 +45,14 @@
 
         <hr>
         <!--about section-->
-        <section id="about" class="pt-2 pb-92 min-h-screen flex flex-col justify-center items-center">
+        <section id="about" class="pt-2 pb-20 min-h-screen flex flex-col justify-center items-center">
             <div class="container">
                 <div class="flex-wrap">
 
-                     <h4 class="font-bold uppercase text-blue-500 mb-3">About Me?</h4>
+                     <h4 class="font-bold uppercase text-blue-500 mb-5">About Me?</h4>
                      <h2 class="font-bold text-dark text-2xl mb-2 max-w-md">Rasa penasaran adalah
                          bahan bakar saya.</h2>
-                     <p class="font-medium text-slate-800 max-w-xl">Saya senang mengeksplorasi dunia digital, mulai dari coding hingga desain. Website ini saya buat sebagai wadah untuk belajar sekaligus menunjukkan hasil karya. Harapan saya, apa yang saya pelajari bisa memberi manfaat, bukan hanya untuk diri sendiri, tapi juga orang lain.</p>
+                     <p class="font-medium text-slate-800 max-w-xl">Saya adalah seorang pelajar yang senang mengeksplorasi dunia digital, mulai dari coding hingga desain. Website ini saya buat sebagai wadah untuk belajar sekaligus menunjukkan hasil karya. Harapan saya, apa yang saya pelajari bisa memberi manfaat, bukan hanya untuk diri sendiri, tapi juga orang lain.</p>
                      
                 </div>
             </div>
@@ -59,15 +60,65 @@
 
         <hr>
         <!--portofolio section-->
-        <section id="portofolio" class="min-h-screen flex flex-col justify-center items-center">
-            <h2 class="text-[30px] font-bold">Portofolio</h2>
-            <p>This section showcases my work and projects.</p>
+        <section id="portofolio" class="pt-36 pb-20 min-h-screen flex flex-col justify-center items-center bg-slate-100">
+            <div class="container">
+                <div class="w-full px-4">
+                     <div class="max-w-xl mx-auto text-center mb-12">
+                          <h4 class="font-semibold text-lg text-primary text-blue-500 mb-5">My Work</h4>
+                          <h2 class="font-bold text-dark text-2xl mb-2">Portofolio</h2>
+                          <p class="font-medium text-slate-700 max-w-md mx-auto">Berikut adalah beberapa hasil karya, prestasi dan proyek yang pernah saya buat. Saya berharap karya-karya dan hal yg saya miliki ini dapat memberikan gambaran tentang kemampuan dan minat saya dalam dunia digital.</p>
+                     </div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                    <!-- Project 1 -->
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="image\Kalkulator.jpeg" class="w-full h-48 object-cover mb-4 rounded">
+                        <h3 class="text-lg font-semibold mb-2">Kalkulator Sederhana</h3>
+                        <p class="text-gray-600">Project latihan saya dimana saya menggunakan HTML, CSS, dan JavaScript untuk membuat aplikasi kalkulator yang dapat melakukan operasi hitung dasar.</p>
+                    </div>
+
+                    <!-- Project 2 -->
+                     <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="image\Film pendek.jpeg" alt="Project 2" class="w-full h-48 object-cover mb-4 rounded">
+                        <h3 class="text-lg font-semibold mb-2">Peserta FLS3N Film Pendek</h3>
+                        <p class="text-gray-600">Sertifikat dari Karya film pendek saya yang dibuat untuk Festival Lomba Seni Siswa Nasional. Proyek ini melatih kreativitas, kerja sama tim, serta kemampuan bercerita lewat media visual.</p>
+                     </div>
+
+                    <!-- Project 3 -->
+                     <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="image\BMC.jpeg" alt="Project 3" class="w-full h-48 object-cover mb-4 rounded">
+                        <h3 class="text-lg font-semibold mb-2">Business Model Canvas</h3>
+                        <p class="text-gray-600">Proyek pembuatan Business Model Canvas sebagai bagian dari lomba kewirausahaan tingkat nasional. Melalui proyek ini, saya belajar menyusun ide bisnis secara terstruktur, mulai dari value proposition, segmen pelanggan, hingga strategi pemasaran. Kegiatan ini melatih kreativitas, analisis, dan kemampuan berpikir strategis dalam dunia bisnis digital.</p>
+                     </div>
+
+                    <!-- Project 4 -->
+                     <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="image\Akademik.jpeg" alt="Project 4" class="w-full h-48 object-cover mb-4 rounded">
+                        <h3 class="text-lg font-semibold mb-2">Prestasi Akademik</h3>
+                        <p class="text-gray-600">Selama perjalanan akademik, saya berhasil meraih berbagai penghargaan di tingkat sekolah hingga nasional. Beberapa di antaranya adalah:
+-Olimpiade Nasional Sains dan Bahasa dimana saya meraih medali perunggu. 
+-Oskantara dimana saya meraih medali emas dibidang informatika dan meraih perak di bahasa Inggris dan bahasa Indonesia.
+-OHKN saya meraih medali perak pada bidang ekonomi. 
+-OSSN saya berhasil meraih medali perak provinsi pada bidang fisika dan berhasil meraih medali perunggu nasional pada bidang fisika
+-Diponegoro Smart Minds Olympiad saya berhasil meraih medali perak pada bidang Matematika. 
+-Dan masih ada beberapa lagi. 
+Prestasi ini mencerminkan semangat belajar, konsistensi, dan kemampuan saya dalam menghadapi tantangan di berbagai bidang.</p>
+                     </div>
+
+                    <!-- Project 5 -->
+                     <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="image\Hand Gesture.jpeg" alt="Project 5" class="w-full h-48 object-cover mb-4 rounded">
+                        <h3 class="text-lg font-semibold mb-2">Hand Gesture</h3>
+                        <p class="text-gray-600">Ini adalah proyek sederhana yang saya buat menggunakan Python, di mana saya membuat hand gesture yang dapat dideteksi oleh kamera. Proyek ini memanfaatkan OpenCV dan MediaPipe untuk mengenali gerakan tangan secara real-time, kemudian hasilnya bisa digunakan untuk berbagai interaksi seperti kontrol aplikasi atau simulasi tanda tangan digital.</p>
+                     </div>
+
+            </div>
         </section>
 
         <hr>
         <!--contact section-->
         <section id="contact" class="min-h-screen flex flex-col justify-center items-center">
-            <h2 class="text-[30px] font-bold text-blue-500">Message Us</h2>
+            <h2 class="text-[30px] font-bold text-blue-500 mt-20">Message Us</h2>
             <form class="max-w-md mt-2 mb-25">
                 <div class="mb-4">
                     <label for="name" class="block text-sm font-medium text-gray-700">Name:</label>
@@ -101,7 +152,7 @@
     </main>
     <!--Footer Content-->
     <footer>
-        <p class="text-center p-[20px] bg-gray-200"> &copy; 2025 Aditya's Portfolio. All rights reserved. </p>
+         <p class="text-center p-[20px] bg-gray-200"> &copy; 2025 Aditya's Portfolio. All rights reserved. </p>
     </footer>
     <!--JS eksternal-->
     <script src="JavaScript\script.js"></script>
